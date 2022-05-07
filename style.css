@@ -1,0 +1,301 @@
+header{
+    background-color: #C0C0C0;
+    padding: 30px 0;
+    width: 100%;
+}
+
+#banner{
+
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: auto;
+    left: 80px;
+    margin: 0 auto;
+    padding: 10px;
+}
+    
+.cajon_principal{
+
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    text-shadow: 2px 6px 4px white;
+}
+
+nav a{
+
+    text-transform: uppercase;
+    color: lime;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: 24px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+main{
+    background-color: aqua;
+    background: linear-gradient(aqua, white);
+    padding: 40px;
+}
+
+#presentacion{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 0 0 60px;
+    box-shadow: inset 0 0 50px white;
+}
+
+.presentacion{
+    margin: 10px;
+    width: 50%;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: bold;
+    text-align: justify;
+    position: relative;
+    top: 50px;
+    right: auto;
+    left: 60px;
+}
+
+.red{
+    width: 60px;
+    height: 40px;
+}
+
+.redes li{
+    display: inline-block;
+    margin: 0 0 0 30px;
+    position: relative;
+    top: 0;
+    left: 120px;
+    box-shadow: inset 0 0 10px lime;
+    border-radius: 10px;
+}
+
+.sobre-mi{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: justify;
+    padding: 30px;
+    position: relative;
+    top: 0;
+    border-radius: 20px;
+    border-color: #C0C0C0;
+    border-width: 6px;
+    border-style: double;
+}
+
+#mi{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 15px 12px 4px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.empresas{
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+    padding: 30px auto;
+    margin: 60px 0 0 20px;
+}
+
+.CV{
+    margin: 60px auto;
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: lime;
+    border-radius: 10px;
+    transition: 2s all;
+    cursor: pointer; 
+}
+
+.CV:hover{
+    border-color: white;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+#habilidad{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 15px 12px 4px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills li{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 60px 1.5% 1.5%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.skills li:hover{
+    transform: scale(1.2) rotate(-15deg);
+    border-color: white;
+    box-shadow: inset 0 0 10px lime;
+}
+
+.logo_skills{
+    width: 130px;
+    height: 90px;
+}
+
+/*#habilidad{
+    position: relative;
+    top: 40px;
+    left: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 0 60px 0;
+}*/
+
+h3{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 15px 12px 4px white;
+}
+
+.descripcion{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logo_hobbie{
+    width: 150px;
+    height: 150px;
+    float: right;
+    border: 10px;
+    border-style: inset;
+    border-color: lime;
+    border-radius: 25px;
+    box-shadow: 15px 15px 8px white;
+}
+
+.hobbie{
+    font-size: 24px;
+    text-shadow: 8px 4px white;
+    font-weight: bold;
+    color: black;
+    /*display: inline-block;*/
+    margin: 0 0 60px 0;
+}
+
+#hobbies{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 15px 12px 4px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pasatiempos{
+    
+    padding: 50px 30px;
+    margin: 50px 0 50px 0;
+    border-radius: 10px;
+    border-color: #C0C0C0;
+    border-width: 6px;
+    border-style: double;
+    text-shadow: 15px 12px 4px white;
+}
+
+.estudio{
+    width: 280px;
+    height: 217px;
+    margin: 30px 0 30px 60px;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 20px;
+    box-shadow: -15px -15px 8px white;
+}
+
+.estudio:hover{
+    border-color: white;
+    box-shadow: 15px 15px 8px black;
+}
+
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    
+    display: block;
+    margin: 0 0 30px;
+    padding: 10px 25px;
+    width: 30%;
+}
+
+.enviar{
+    margin: 20px 0;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: lime;
+    border-radius: 10px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    transform: scale(1);
+    border-style: groove;
+    border-width: 10px;
+    border-color: white;
+}
+
+footer{
+    background-color: #C0C0C0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+#banner-footer{
+    width: 300px;
+    height: 80px;
+}
